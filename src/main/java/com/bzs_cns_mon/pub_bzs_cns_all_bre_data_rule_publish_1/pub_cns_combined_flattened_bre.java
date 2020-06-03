@@ -8,6 +8,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	
+
 	public pub_cns_combined_flattened_bre() {
 	}
 
@@ -63,8 +65,8 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String string_data_multi_choice_codes_09;
 	private java.util.List<java.lang.String> data_multi_choice_codes_10 = new ArrayList<java.lang.String>();
 	private java.lang.String string_data_multi_choice_codes_10;
-	private java.util.List<java.lang.String> data_multi_choice_codes_11 = new ArrayList<java.lang.String>();
-	private java.lang.String string_data_multi_choice_codes_11;
+	private java.util.List<java.lang.Long> data_multi_choice_codes_11 = new ArrayList<java.lang.Long>();
+	private long long_data_multi_choice_codes_11;
 	private java.util.List<java.lang.String> data_multi_choice_codes_12 = new ArrayList<java.lang.String>();
 	private java.lang.String string_data_multi_choice_codes_12;
 	private java.util.List<java.lang.String> data_multi_choice_codes_13 = new ArrayList<java.lang.String>();
@@ -438,7 +440,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_attr_10;
 	private java.lang.String data_npd_attr_11;
 	private java.lang.String data_npd_attr_12;
-	private java.lang.String data_npd_attr_13;
+	private long data_npd_attr_13;
 	private java.lang.String data_npd_attr_14;
 	private java.lang.String data_npd_attr_15;
 	private java.lang.String data_npd_attr_16;
@@ -2228,23 +2230,24 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 			java.lang.String string_data_multi_choice_codes_10) {
 		this.string_data_multi_choice_codes_10 = string_data_multi_choice_codes_10;
 	}
-
-	public java.util.List<java.lang.String> getData_multi_choice_codes_11() {
+	
+	public java.util.List<java.lang.Long> getData_multi_choice_codes_11() {
 		return this.data_multi_choice_codes_11;
 	}
 
 	public void setData_multi_choice_codes_11(
-			String drools_data_multi_choice_codes_11) {
+			long drools_data_multi_choice_codes_11) {
 		this.data_multi_choice_codes_11.add(drools_data_multi_choice_codes_11);
 	}
+	
 
-	public java.lang.String getString_data_multi_choice_codes_11() {
-		return this.string_data_multi_choice_codes_11;
+	public long getLong_data_multi_choice_codes_11() {
+		return this.long_data_multi_choice_codes_11;
 	}
 
-	public void setString_data_multi_choice_codes_11(
-			java.lang.String string_data_multi_choice_codes_11) {
-		this.string_data_multi_choice_codes_11 = string_data_multi_choice_codes_11;
+	public void setLong_data_multi_choice_codes_11(
+			long long_data_multi_choice_codes_11) {
+		this.long_data_multi_choice_codes_11 = long_data_multi_choice_codes_11;
 	}
 
 	public java.util.List<java.lang.String> getData_multi_choice_codes_12() {
@@ -5670,14 +5673,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_npd_attr_12(java.lang.String data_npd_attr_12) {
 		this.data_npd_attr_12 = data_npd_attr_12;
-	}
-
-	public java.lang.String getData_npd_attr_13() {
-		return this.data_npd_attr_13;
-	}
-
-	public void setData_npd_attr_13(java.lang.String data_npd_attr_13) {
-		this.data_npd_attr_13 = data_npd_attr_13;
 	}
 
 	public java.lang.String getData_npd_attr_14() {
@@ -17736,4 +17731,13 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 		this.data_ppmonth = data_ppmonth;
 	}
 
+
+	public long getData_npd_attr_13() {
+		return this.data_npd_attr_13;
+	}
+
+	public void setData_npd_attr_13(long data_npd_attr_13) {
+		this.data_npd_attr_13 = data_npd_attr_13;
+	}
+	
 }
