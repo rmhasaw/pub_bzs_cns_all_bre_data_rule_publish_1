@@ -857,7 +857,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_factor_values_4;
 	private java.lang.String data_factor_values_5;
 	private java.lang.String data_factor_values_6;
-	private java.lang.String data_factor_values_7;
+	private float data_factor_values_7;
 	private java.lang.String data_factor_values_8;
 	private java.lang.String data_factor_values_9;
 	private java.lang.String data_factor_values_10;
@@ -9160,11 +9160,11 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 		this.data_factor_values_6 = data_factor_values_6;
 	}
 
-	public java.lang.String getData_factor_values_7() {
+	public float getData_factor_values_7() {
 		return this.data_factor_values_7;
 	}
 
-	public void setData_factor_values_7(java.lang.String data_factor_values_7) {
+	public void setData_factor_values_7(float data_factor_values_7) {
 		this.data_factor_values_7 = data_factor_values_7;
 	}
 
