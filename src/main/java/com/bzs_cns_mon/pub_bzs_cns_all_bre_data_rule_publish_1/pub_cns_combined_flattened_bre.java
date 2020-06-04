@@ -42,7 +42,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_subcategory_code;
 	private java.lang.String data_purchase_method;
 	private java.lang.String data_purchase_type;
-	private java.lang.String data_on_sale;
+	private long data_on_sale;
 	private java.util.List<java.lang.String> data_multi_choice_codes_01 = new ArrayList<java.lang.String>();
 	private java.lang.String string_data_multi_choice_codes_01;
 	private java.util.List<java.lang.String> data_multi_choice_codes_02 = new ArrayList<java.lang.String>();
@@ -428,7 +428,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_attr_0;
 	private long data_npd_attr_1;
 	private java.lang.String data_npd_attr_2;
-	private java.lang.String data_npd_attr_3;
+	private long data_npd_attr_3;
 	private java.lang.String data_npd_attr_4;
 	private java.lang.String data_npd_attr_5;
 	private java.lang.String data_npd_attr_6;
@@ -805,7 +805,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_item__parent_item_id;
 	private java.lang.String data_npd_item__parent_item_id_status;
 	private java.lang.String data_npd_item__item_filler;
-	private java.lang.String data_status;
+	private int data_status;
 	private java.lang.String data_counter_01;
 	private java.lang.String data_counter_02;
 	private java.lang.String data_counter_03;
@@ -2039,14 +2039,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_purchase_type(java.lang.String data_purchase_type) {
 		this.data_purchase_type = data_purchase_type;
-	}
-
-	public java.lang.String getData_on_sale() {
-		return this.data_on_sale;
-	}
-
-	public void setData_on_sale(java.lang.String data_on_sale) {
-		this.data_on_sale = data_on_sale;
 	}
 
 	public java.util.List<java.lang.String> getData_multi_choice_codes_01() {
@@ -5584,14 +5576,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 		this.data_npd_attr_2 = data_npd_attr_2;
 	}
 
-	public java.lang.String getData_npd_attr_3() {
-		return this.data_npd_attr_3;
-	}
-
-	public void setData_npd_attr_3(java.lang.String data_npd_attr_3) {
-		this.data_npd_attr_3 = data_npd_attr_3;
-	}
-
 	public java.lang.String getData_npd_attr_4() {
 		return this.data_npd_attr_4;
 	}
@@ -8713,14 +8697,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setData_npd_item__item_filler(
 			java.lang.String data_npd_item__item_filler) {
 		this.data_npd_item__item_filler = data_npd_item__item_filler;
-	}
-
-	public java.lang.String getData_status() {
-		return this.data_status;
-	}
-
-	public void setData_status(java.lang.String data_status) {
-		this.data_status = data_status;
 	}
 
 	public java.lang.String getData_counter_01() {
@@ -17734,6 +17710,30 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_npd_attr_1(long data_npd_attr_1) {
 		this.data_npd_attr_1 = data_npd_attr_1;
+	}
+
+	public long getData_on_sale() {
+		return this.data_on_sale;
+	}
+
+	public void setData_on_sale(long data_on_sale) {
+		this.data_on_sale = data_on_sale;
+	}
+
+	public long getData_npd_attr_3() {
+		return this.data_npd_attr_3;
+	}
+
+	public void setData_npd_attr_3(long data_npd_attr_3) {
+		this.data_npd_attr_3 = data_npd_attr_3;
+	}
+
+	public int getData_status() {
+		return this.data_status;
+	}
+
+	public void setData_status(int data_status) {
+		this.data_status = data_status;
 	}
 
 }
