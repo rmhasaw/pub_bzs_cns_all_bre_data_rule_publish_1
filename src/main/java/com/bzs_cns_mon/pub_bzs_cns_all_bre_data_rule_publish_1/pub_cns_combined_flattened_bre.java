@@ -1,8 +1,8 @@
 package com.bzs_cns_mon.pub_bzs_cns_all_bre_data_rule_publish_1;
 
-import java.math.*;
-import java.lang.Object.*;
-import java.util.*;
+import java.math;
+import java.lang.Object;
+import java.util;
 
 public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
@@ -426,7 +426,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_npd_item_id;
 	private java.lang.String data_units_per_package;
 	private java.lang.String data_npd_attr_0;
-	private java.lang.String data_npd_attr_1;
+	private long data_npd_attr_1;
 	private java.lang.String data_npd_attr_2;
 	private java.lang.String data_npd_attr_3;
 	private java.lang.String data_npd_attr_4;
@@ -5574,14 +5574,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_npd_attr_0(java.lang.String data_npd_attr_0) {
 		this.data_npd_attr_0 = data_npd_attr_0;
-	}
-
-	public java.lang.String getData_npd_attr_1() {
-		return this.data_npd_attr_1;
-	}
-
-	public void setData_npd_attr_1(java.lang.String data_npd_attr_1) {
-		this.data_npd_attr_1 = data_npd_attr_1;
 	}
 
 	public java.lang.String getData_npd_attr_2() {
@@ -17734,6 +17726,14 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_factor_values_7(double data_factor_values_7) {
 		this.data_factor_values_7 = data_factor_values_7;
+	}
+
+	public long getData_npd_attr_1() {
+		return this.data_npd_attr_1;
+	}
+
+	public void setData_npd_attr_1(long data_npd_attr_1) {
+		this.data_npd_attr_1 = data_npd_attr_1;
 	}
 
 }
