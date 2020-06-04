@@ -2,24 +2,35 @@
   <tableName>Constant Dollars back data change</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>50</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols>
     <attribute-column52>
+      <typedDefaultValue>
+        <valueNumeric class="int">0</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>130</width>
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
     <attribute-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>100</width>
       <attribute>activation-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -31,6 +42,7 @@
       <width>-1</width>
       <header>Converted from [&apos;data_ppmonth &lt;&apos;, &apos;data_ppmonth &gt;&apos;]</header>
       <constraintValueType>1</constraintValueType>
+      <parameters/>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FactPattern>
           <constraintList>
@@ -43,6 +55,7 @@
                   <parts/>
                   <index>2147483647</index>
                 </expression>
+                <parameters/>
                 <factType>pub_cns_combined_flattened_bre</factType>
                 <fieldName>data_ppmonth</fieldName>
                 <fieldType>Integer</fieldType>
@@ -55,6 +68,7 @@
                   <parts/>
                   <index>2147483647</index>
                 </expression>
+                <parameters/>
                 <factType>pub_cns_combined_flattened_bre</factType>
                 <fieldName>data_ppmonth</fieldName>
                 <fieldType>Integer</fieldType>
@@ -64,26 +78,31 @@
           <factType>pub_cns_combined_flattened_bre</factType>
           <boundName>data</boundName>
           <isNegated>false</isNegated>
+          <window>
+            <parameters/>
+          </window>
         </org.drools.workbench.models.datamodel.rule.FactPattern>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>154</width>
           <header>data_ppmonth &lt;</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
           <fieldType>Integer</fieldType>
+          <parameters/>
           <varName>param1</varName>
           <factType>pub_cns_combined_flattened_bre</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>153</width>
           <header>data_ppmonth &gt;</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
           <fieldType>Integer</fieldType>
+          <parameters/>
           <varName>param2</varName>
           <factType>pub_cns_combined_flattened_bre</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
@@ -111,7 +130,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>288</width>
           <header>data_factor_values_7</header>
           <varName>param3</varName>
           <fieldType>Double</fieldType>
@@ -121,6 +140,33 @@
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
   </actionCols>
+  <auditLog>
+    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
+      <acceptedTypes>
+        <entry>
+          <string>INSERT_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>UPDATE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+      </acceptedTypes>
+    </filter>
+    <entries/>
+  </auditLog>
   <imports>
     <imports/>
   </imports>
@@ -131,6 +177,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -141,6 +188,7 @@
       </value>
       <value>
         <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -151,15 +199,18 @@
       </value>
       <value>
         <valueNumeric class="int">489</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueNumeric class="double">0.2597</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -167,6 +218,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -177,6 +229,7 @@
       </value>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -187,15 +240,18 @@
       </value>
       <value>
         <valueNumeric class="int">489</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueNumeric class="double">0.3031</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -203,6 +259,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -213,6 +270,7 @@
       </value>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -223,15 +281,18 @@
       </value>
       <value>
         <valueNumeric class="int">489</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueNumeric class="double">0.3077</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -239,6 +300,7 @@
     <list>
       <value>
         <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -249,6 +311,7 @@
       </value>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -258,16 +321,19 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueNumeric class="int">489</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
         <valueNumeric class="double">0.2626</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
