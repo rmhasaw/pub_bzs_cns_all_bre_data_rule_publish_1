@@ -8,8 +8,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	
-
 	public pub_cns_combined_flattened_bre() {
 	}
 
@@ -857,7 +855,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private java.lang.String data_factor_values_4;
 	private java.lang.String data_factor_values_5;
 	private java.lang.String data_factor_values_6;
-	private float data_factor_values_7;
+	private double data_factor_values_7;
 	private java.lang.String data_factor_values_8;
 	private java.lang.String data_factor_values_9;
 	private java.lang.String data_factor_values_10;
@@ -2230,7 +2228,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 			java.lang.String string_data_multi_choice_codes_10) {
 		this.string_data_multi_choice_codes_10 = string_data_multi_choice_codes_10;
 	}
-	
+
 	public java.util.List<java.lang.Long> getData_multi_choice_codes_11() {
 		return this.data_multi_choice_codes_11;
 	}
@@ -2239,7 +2237,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 			long drools_data_multi_choice_codes_11) {
 		this.data_multi_choice_codes_11.add(drools_data_multi_choice_codes_11);
 	}
-	
 
 	public long getLong_data_multi_choice_codes_11() {
 		return this.long_data_multi_choice_codes_11;
@@ -9158,14 +9155,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
 	public void setData_factor_values_6(java.lang.String data_factor_values_6) {
 		this.data_factor_values_6 = data_factor_values_6;
-	}
-
-	public float getData_factor_values_7() {
-		return this.data_factor_values_7;
-	}
-
-	public void setData_factor_values_7(float data_factor_values_7) {
-		this.data_factor_values_7 = data_factor_values_7;
 	}
 
 	public java.lang.String getData_factor_values_8() {
@@ -17731,7 +17720,6 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 		this.data_ppmonth = data_ppmonth;
 	}
 
-
 	public long getData_npd_attr_13() {
 		return this.data_npd_attr_13;
 	}
@@ -17739,5 +17727,13 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	public void setData_npd_attr_13(long data_npd_attr_13) {
 		this.data_npd_attr_13 = data_npd_attr_13;
 	}
-	
+
+	public double getData_factor_values_7() {
+		return this.data_factor_values_7;
+	}
+
+	public void setData_factor_values_7(double data_factor_values_7) {
+		this.data_factor_values_7 = data_factor_values_7;
+	}
+
 }
