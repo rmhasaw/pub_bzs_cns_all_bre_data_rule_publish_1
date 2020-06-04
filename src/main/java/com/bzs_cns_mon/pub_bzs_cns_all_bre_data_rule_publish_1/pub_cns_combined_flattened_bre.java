@@ -1,8 +1,8 @@
 package com.bzs_cns_mon.pub_bzs_cns_all_bre_data_rule_publish_1;
 
-import java.math;
-import java.lang.Object;
-import java.util;
+import java.math.*;
+import java.lang.Object.*;
+import java.util.*;
 
 public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 
