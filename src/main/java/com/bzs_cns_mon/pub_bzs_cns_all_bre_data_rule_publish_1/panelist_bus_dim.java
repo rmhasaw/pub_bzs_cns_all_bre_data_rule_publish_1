@@ -9,7 +9,7 @@ public class panelist_bus_dim implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.lang.String dim_name;
-	private Integer dim_levels__level_0;
+	private Long dim_levels__level_0;
 	private java.lang.Long dim_levels__level_1;
 	private java.lang.Long dim_levels__level_2;
 	private java.lang.Long dim_levels__level_3;
@@ -23,16 +23,16 @@ public class panelist_bus_dim implements java.io.Serializable {
 	public panelist_bus_dim() {
 	}
 
-	public java.lang.Integer getDim_levels__level_0() {
+	public java.lang.Long getDim_levels__level_0() {
 		return this.dim_levels__level_0;
 	}
 
-	public void setDim_levels__level_0(java.lang.Integer dim_levels__level_0) {
+	public void setDim_levels__level_0(java.lang.Long dim_levels__level_0) {
 		this.dim_levels__level_0 = dim_levels__level_0;
 	}
 
 	public panelist_bus_dim(java.lang.String dim_name,
-			java.lang.Integer dim_levels__level_0,
+			java.lang.Long dim_levels__level_0,
 			java.lang.Long dim_levels__level_1,
 			java.lang.Long dim_levels__level_2,
 			java.lang.Long dim_levels__level_3,
