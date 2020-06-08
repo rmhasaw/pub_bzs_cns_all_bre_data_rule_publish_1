@@ -12,7 +12,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString/>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -24,13 +24,13 @@
     </attribute-column52>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString/>
+        <valueNumeric class="int">0</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-        <valueNumeric class="int">0</valueNumeric>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>130</width>
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -44,8 +44,8 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
-            <valueString/>
-            <dataType>String</dataType>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
@@ -53,22 +53,22 @@
           <header>data_brand equals</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_brand</factField>
-          <fieldType>java.lang.String</fieldType>
+          <fieldType>Long</fieldType>
           <operator>==</operator>
           <parameters/>
-          <binding/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
         <parameters/>
       </window>
-      <entryPointName/>
+      <entryPointName></entryPointName>
     </Pattern52>
   </conditionPatterns>
   <actionCols>
     <set-field-col52>
       <typedDefaultValue>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -81,6 +81,33 @@
       <update>false</update>
     </set-field-col52>
   </actionCols>
+  <auditLog>
+    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
+      <acceptedTypes>
+        <entry>
+          <string>INSERT_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>UPDATE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+      </acceptedTypes>
+    </filter>
+    <entries/>
+  </auditLog>
   <imports>
     <imports/>
   </imports>
@@ -91,7 +118,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -107,17 +134,18 @@
       </value>
       <value>
         <valueNumeric class="int">107</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006905</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006905</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007525"</valueString>
+        <valueString>&quot;1235007525&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -125,7 +153,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -141,17 +169,18 @@
       </value>
       <value>
         <valueNumeric class="int">106</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000001</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000001</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007526"</valueString>
+        <valueString>&quot;1235007526&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -159,7 +188,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -175,17 +204,18 @@
       </value>
       <value>
         <valueNumeric class="int">105</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000002</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000002</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007527"</valueString>
+        <valueString>&quot;1235007527&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -193,7 +223,7 @@
     <list>
       <value>
         <valueNumeric class="int">4</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -209,17 +239,18 @@
       </value>
       <value>
         <valueNumeric class="int">104</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006906</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006906</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007529"</valueString>
+        <valueString>&quot;1235007529&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -227,7 +258,7 @@
     <list>
       <value>
         <valueNumeric class="int">5</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -243,17 +274,18 @@
       </value>
       <value>
         <valueNumeric class="int">103</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003503</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003503</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007530"</valueString>
+        <valueString>&quot;1235007530&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -261,7 +293,7 @@
     <list>
       <value>
         <valueNumeric class="int">6</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -277,17 +309,18 @@
       </value>
       <value>
         <valueNumeric class="int">102</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000006</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000006</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007531"</valueString>
+        <valueString>&quot;1235007531&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -295,7 +328,7 @@
     <list>
       <value>
         <valueNumeric class="int">7</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -311,17 +344,18 @@
       </value>
       <value>
         <valueNumeric class="int">101</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000007</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000007</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007532"</valueString>
+        <valueString>&quot;1235007532&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -329,7 +363,7 @@
     <list>
       <value>
         <valueNumeric class="int">8</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -345,17 +379,18 @@
       </value>
       <value>
         <valueNumeric class="int">100</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003848</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003848</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007533"</valueString>
+        <valueString>&quot;1235007533&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -363,7 +398,7 @@
     <list>
       <value>
         <valueNumeric class="int">9</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -379,17 +414,18 @@
       </value>
       <value>
         <valueNumeric class="int">99</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003511</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003511</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007534"</valueString>
+        <valueString>&quot;1235007534&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -397,7 +433,7 @@
     <list>
       <value>
         <valueNumeric class="int">10</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -413,17 +449,18 @@
       </value>
       <value>
         <valueNumeric class="int">98</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000013</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000013</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007535"</valueString>
+        <valueString>&quot;1235007535&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -431,7 +468,7 @@
     <list>
       <value>
         <valueNumeric class="int">11</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -447,17 +484,18 @@
       </value>
       <value>
         <valueNumeric class="int">97</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000014</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000014</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007536"</valueString>
+        <valueString>&quot;1235007536&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -465,7 +503,7 @@
     <list>
       <value>
         <valueNumeric class="int">12</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -481,17 +519,18 @@
       </value>
       <value>
         <valueNumeric class="int">96</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000016</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000016</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007537"</valueString>
+        <valueString>&quot;1235007537&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -499,7 +538,7 @@
     <list>
       <value>
         <valueNumeric class="int">13</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -515,17 +554,18 @@
       </value>
       <value>
         <valueNumeric class="int">95</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000017</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000017</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007538"</valueString>
+        <valueString>&quot;1235007538&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -533,7 +573,7 @@
     <list>
       <value>
         <valueNumeric class="int">14</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -549,17 +589,18 @@
       </value>
       <value>
         <valueNumeric class="int">94</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235007058</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235007058</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007630"</valueString>
+        <valueString>&quot;1235007630&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -567,7 +608,7 @@
     <list>
       <value>
         <valueNumeric class="int">15</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -583,17 +624,18 @@
       </value>
       <value>
         <valueNumeric class="int">93</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003523</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003523</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007539"</valueString>
+        <valueString>&quot;1235007539&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -601,7 +643,7 @@
     <list>
       <value>
         <valueNumeric class="int">16</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -617,17 +659,18 @@
       </value>
       <value>
         <valueNumeric class="int">92</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006910</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006910</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007540"</valueString>
+        <valueString>&quot;1235007540&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -635,7 +678,7 @@
     <list>
       <value>
         <valueNumeric class="int">17</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -651,17 +694,18 @@
       </value>
       <value>
         <valueNumeric class="int">91</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000021</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000021</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007547"</valueString>
+        <valueString>&quot;1235007547&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -669,7 +713,7 @@
     <list>
       <value>
         <valueNumeric class="int">18</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -685,17 +729,18 @@
       </value>
       <value>
         <valueNumeric class="int">90</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235004033</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235004033</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007541"</valueString>
+        <valueString>&quot;1235007541&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -703,7 +748,7 @@
     <list>
       <value>
         <valueNumeric class="int">19</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -719,17 +764,18 @@
       </value>
       <value>
         <valueNumeric class="int">89</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003850</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003850</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007542"</valueString>
+        <valueString>&quot;1235007542&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -737,7 +783,7 @@
     <list>
       <value>
         <valueNumeric class="int">20</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -753,17 +799,18 @@
       </value>
       <value>
         <valueNumeric class="int">88</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003525</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003525</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007543"</valueString>
+        <valueString>&quot;1235007543&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -771,12 +818,12 @@
     <list>
       <value>
         <valueNumeric class="int">21</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>rule_31_Top Brands_case 21_Cobra D'Aqua</valueString>
+        <valueString>rule_31_Top Brands_case 21_Cobra D&apos;Aqua</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -787,17 +834,18 @@
       </value>
       <value>
         <valueNumeric class="int">87</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003529</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003529</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007544"</valueString>
+        <valueString>&quot;1235007544&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -805,7 +853,7 @@
     <list>
       <value>
         <valueNumeric class="int">22</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -821,17 +869,18 @@
       </value>
       <value>
         <valueNumeric class="int">86</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000026</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000026</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007545"</valueString>
+        <valueString>&quot;1235007545&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -839,7 +888,7 @@
     <list>
       <value>
         <valueNumeric class="int">23</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -855,17 +904,18 @@
       </value>
       <value>
         <valueNumeric class="int">85</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003813</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003813</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007546"</valueString>
+        <valueString>&quot;1235007546&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -873,7 +923,7 @@
     <list>
       <value>
         <valueNumeric class="int">24</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -889,17 +939,18 @@
       </value>
       <value>
         <valueNumeric class="int">84</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000028</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000028</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007549"</valueString>
+        <valueString>&quot;1235007549&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -907,7 +958,7 @@
     <list>
       <value>
         <valueNumeric class="int">25</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -923,17 +974,18 @@
       </value>
       <value>
         <valueNumeric class="int">83</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003852</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003852</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007548"</valueString>
+        <valueString>&quot;1235007548&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -941,7 +993,7 @@
     <list>
       <value>
         <valueNumeric class="int">26</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -957,17 +1009,18 @@
       </value>
       <value>
         <valueNumeric class="int">82</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003531</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003531</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007551"</valueString>
+        <valueString>&quot;1235007551&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -975,7 +1028,7 @@
     <list>
       <value>
         <valueNumeric class="int">27</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -991,17 +1044,18 @@
       </value>
       <value>
         <valueNumeric class="int">81</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006916</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006916</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007550"</valueString>
+        <valueString>&quot;1235007550&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1009,7 +1063,7 @@
     <list>
       <value>
         <valueNumeric class="int">28</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1025,17 +1079,18 @@
       </value>
       <value>
         <valueNumeric class="int">80</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006917</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006917</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007552"</valueString>
+        <valueString>&quot;1235007552&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1043,7 +1098,7 @@
     <list>
       <value>
         <valueNumeric class="int">29</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1059,17 +1114,18 @@
       </value>
       <value>
         <valueNumeric class="int">79</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000031</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000031</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007553"</valueString>
+        <valueString>&quot;1235007553&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1077,7 +1133,7 @@
     <list>
       <value>
         <valueNumeric class="int">30</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1093,17 +1149,18 @@
       </value>
       <value>
         <valueNumeric class="int">78</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006919</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006919</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007554"</valueString>
+        <valueString>&quot;1235007554&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1111,7 +1168,7 @@
     <list>
       <value>
         <valueNumeric class="int">31</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1127,17 +1184,18 @@
       </value>
       <value>
         <valueNumeric class="int">77</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003533</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003533</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007555"</valueString>
+        <valueString>&quot;1235007555&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1145,7 +1203,7 @@
     <list>
       <value>
         <valueNumeric class="int">32</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1161,17 +1219,18 @@
       </value>
       <value>
         <valueNumeric class="int">76</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003535</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003535</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007556"</valueString>
+        <valueString>&quot;1235007556&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1179,7 +1238,7 @@
     <list>
       <value>
         <valueNumeric class="int">33</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1195,17 +1254,18 @@
       </value>
       <value>
         <valueNumeric class="int">75</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000036</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000036</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007557"</valueString>
+        <valueString>&quot;1235007557&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1213,7 +1273,7 @@
     <list>
       <value>
         <valueNumeric class="int">34</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1229,17 +1289,18 @@
       </value>
       <value>
         <valueNumeric class="int">74</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003537</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003537</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007558"</valueString>
+        <valueString>&quot;1235007558&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1247,7 +1308,7 @@
     <list>
       <value>
         <valueNumeric class="int">35</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1263,17 +1324,18 @@
       </value>
       <value>
         <valueNumeric class="int">73</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006920</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006920</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007559"</valueString>
+        <valueString>&quot;1235007559&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1281,7 +1343,7 @@
     <list>
       <value>
         <valueNumeric class="int">36</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1297,17 +1359,18 @@
       </value>
       <value>
         <valueNumeric class="int">72</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000037</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000037</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007560"</valueString>
+        <valueString>&quot;1235007560&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1315,7 +1378,7 @@
     <list>
       <value>
         <valueNumeric class="int">37</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1331,17 +1394,18 @@
       </value>
       <value>
         <valueNumeric class="int">71</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000038</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000038</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007561"</valueString>
+        <valueString>&quot;1235007561&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1349,7 +1413,7 @@
     <list>
       <value>
         <valueNumeric class="int">38</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1365,17 +1429,18 @@
       </value>
       <value>
         <valueNumeric class="int">70</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000039</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000039</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007562"</valueString>
+        <valueString>&quot;1235007562&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1383,7 +1448,7 @@
     <list>
       <value>
         <valueNumeric class="int">39</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1399,17 +1464,18 @@
       </value>
       <value>
         <valueNumeric class="int">69</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000040</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000040</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007564"</valueString>
+        <valueString>&quot;1235007564&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1417,7 +1483,7 @@
     <list>
       <value>
         <valueNumeric class="int">40</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1433,17 +1499,18 @@
       </value>
       <value>
         <valueNumeric class="int">68</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003858</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003858</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007563"</valueString>
+        <valueString>&quot;1235007563&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1451,7 +1518,7 @@
     <list>
       <value>
         <valueNumeric class="int">41</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1467,17 +1534,18 @@
       </value>
       <value>
         <valueNumeric class="int">67</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006923</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006923</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007565"</valueString>
+        <valueString>&quot;1235007565&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1485,7 +1553,7 @@
     <list>
       <value>
         <valueNumeric class="int">42</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1501,17 +1569,18 @@
       </value>
       <value>
         <valueNumeric class="int">66</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003541</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003541</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007566"</valueString>
+        <valueString>&quot;1235007566&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1519,7 +1588,7 @@
     <list>
       <value>
         <valueNumeric class="int">43</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1535,17 +1604,18 @@
       </value>
       <value>
         <valueNumeric class="int">65</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000044</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000044</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007567"</valueString>
+        <valueString>&quot;1235007567&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1553,7 +1623,7 @@
     <list>
       <value>
         <valueNumeric class="int">44</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1569,17 +1639,18 @@
       </value>
       <value>
         <valueNumeric class="int">64</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000046</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000046</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007568"</valueString>
+        <valueString>&quot;1235007568&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1587,7 +1658,7 @@
     <list>
       <value>
         <valueNumeric class="int">45</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1603,17 +1674,18 @@
       </value>
       <value>
         <valueNumeric class="int">63</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235004034</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235004034</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007569"</valueString>
+        <valueString>&quot;1235007569&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1621,7 +1693,7 @@
     <list>
       <value>
         <valueNumeric class="int">46</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1637,17 +1709,18 @@
       </value>
       <value>
         <valueNumeric class="int">62</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006925</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006925</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007570"</valueString>
+        <valueString>&quot;1235007570&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1655,7 +1728,7 @@
     <list>
       <value>
         <valueNumeric class="int">47</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1671,17 +1744,18 @@
       </value>
       <value>
         <valueNumeric class="int">61</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003860</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003860</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007572"</valueString>
+        <valueString>&quot;1235007572&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1689,7 +1763,7 @@
     <list>
       <value>
         <valueNumeric class="int">48</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1705,17 +1779,18 @@
       </value>
       <value>
         <valueNumeric class="int">60</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006926</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006926</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007573"</valueString>
+        <valueString>&quot;1235007573&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1723,7 +1798,7 @@
     <list>
       <value>
         <valueNumeric class="int">49</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1739,17 +1814,18 @@
       </value>
       <value>
         <valueNumeric class="int">59</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003863</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003863</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007574"</valueString>
+        <valueString>&quot;1235007574&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1757,7 +1833,7 @@
     <list>
       <value>
         <valueNumeric class="int">50</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1773,17 +1849,18 @@
       </value>
       <value>
         <valueNumeric class="int">58</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003545</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003545</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007575"</valueString>
+        <valueString>&quot;1235007575&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1791,7 +1868,7 @@
     <list>
       <value>
         <valueNumeric class="int">51</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1807,17 +1884,18 @@
       </value>
       <value>
         <valueNumeric class="int">57</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000050</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000050</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007576"</valueString>
+        <valueString>&quot;1235007576&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1825,7 +1903,7 @@
     <list>
       <value>
         <valueNumeric class="int">52</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1841,17 +1919,18 @@
       </value>
       <value>
         <valueNumeric class="int">56</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000051</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000051</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007577"</valueString>
+        <valueString>&quot;1235007577&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1859,12 +1938,12 @@
     <list>
       <value>
         <valueNumeric class="int">53</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>rule_31_Top Brands_case 53_Levi's</valueString>
+        <valueString>rule_31_Top Brands_case 53_Levi&apos;s</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1875,17 +1954,18 @@
       </value>
       <value>
         <valueNumeric class="int">55</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003547</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003547</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007578"</valueString>
+        <valueString>&quot;1235007578&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1893,7 +1973,7 @@
     <list>
       <value>
         <valueNumeric class="int">54</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1909,17 +1989,18 @@
       </value>
       <value>
         <valueNumeric class="int">54</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000053</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000053</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007579"</valueString>
+        <valueString>&quot;1235007579&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1927,7 +2008,7 @@
     <list>
       <value>
         <valueNumeric class="int">55</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1943,17 +2024,18 @@
       </value>
       <value>
         <valueNumeric class="int">53</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000054</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000054</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007580"</valueString>
+        <valueString>&quot;1235007580&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1961,7 +2043,7 @@
     <list>
       <value>
         <valueNumeric class="int">56</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1977,17 +2059,18 @@
       </value>
       <value>
         <valueNumeric class="int">52</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003551</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003551</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007581"</valueString>
+        <valueString>&quot;1235007581&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1995,7 +2078,7 @@
     <list>
       <value>
         <valueNumeric class="int">57</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2011,17 +2094,18 @@
       </value>
       <value>
         <valueNumeric class="int">51</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000056</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000056</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007582"</valueString>
+        <valueString>&quot;1235007582&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2029,7 +2113,7 @@
     <list>
       <value>
         <valueNumeric class="int">58</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2045,17 +2129,18 @@
       </value>
       <value>
         <valueNumeric class="int">50</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006931</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006931</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007631"</valueString>
+        <valueString>&quot;1235007631&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2063,7 +2148,7 @@
     <list>
       <value>
         <valueNumeric class="int">59</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2079,17 +2164,18 @@
       </value>
       <value>
         <valueNumeric class="int">49</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000057</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000057</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007583"</valueString>
+        <valueString>&quot;1235007583&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2097,7 +2183,7 @@
     <list>
       <value>
         <valueNumeric class="int">60</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2113,17 +2199,18 @@
       </value>
       <value>
         <valueNumeric class="int">48</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000060</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000060</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007584"</valueString>
+        <valueString>&quot;1235007584&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2131,7 +2218,7 @@
     <list>
       <value>
         <valueNumeric class="int">61</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2147,17 +2234,18 @@
       </value>
       <value>
         <valueNumeric class="int">47</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003553</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003553</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007585"</valueString>
+        <valueString>&quot;1235007585&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2165,7 +2253,7 @@
     <list>
       <value>
         <valueNumeric class="int">62</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2181,17 +2269,18 @@
       </value>
       <value>
         <valueNumeric class="int">46</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000062</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000062</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007586"</valueString>
+        <valueString>&quot;1235007586&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2199,7 +2288,7 @@
     <list>
       <value>
         <valueNumeric class="int">63</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2215,17 +2304,18 @@
       </value>
       <value>
         <valueNumeric class="int">45</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000063</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000063</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007587"</valueString>
+        <valueString>&quot;1235007587&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2233,7 +2323,7 @@
     <list>
       <value>
         <valueNumeric class="int">64</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2249,17 +2339,18 @@
       </value>
       <value>
         <valueNumeric class="int">44</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003866</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003866</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007588"</valueString>
+        <valueString>&quot;1235007588&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2267,7 +2358,7 @@
     <list>
       <value>
         <valueNumeric class="int">65</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2283,17 +2374,18 @@
       </value>
       <value>
         <valueNumeric class="int">43</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000064</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000064</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007589"</valueString>
+        <valueString>&quot;1235007589&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2301,7 +2393,7 @@
     <list>
       <value>
         <valueNumeric class="int">66</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2317,17 +2409,18 @@
       </value>
       <value>
         <valueNumeric class="int">42</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000066</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000066</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007590"</valueString>
+        <valueString>&quot;1235007590&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2335,7 +2428,7 @@
     <list>
       <value>
         <valueNumeric class="int">67</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2351,17 +2444,18 @@
       </value>
       <value>
         <valueNumeric class="int">41</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000067</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000067</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007591"</valueString>
+        <valueString>&quot;1235007591&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2369,7 +2463,7 @@
     <list>
       <value>
         <valueNumeric class="int">68</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2385,17 +2479,18 @@
       </value>
       <value>
         <valueNumeric class="int">40</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000070</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000070</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007592"</valueString>
+        <valueString>&quot;1235007592&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2403,7 +2498,7 @@
     <list>
       <value>
         <valueNumeric class="int">69</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2419,17 +2514,18 @@
       </value>
       <value>
         <valueNumeric class="int">39</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000071</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000071</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007593"</valueString>
+        <valueString>&quot;1235007593&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2437,7 +2533,7 @@
     <list>
       <value>
         <valueNumeric class="int">70</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2453,17 +2549,18 @@
       </value>
       <value>
         <valueNumeric class="int">38</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006933</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006933</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007594"</valueString>
+        <valueString>&quot;1235007594&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2471,7 +2568,7 @@
     <list>
       <value>
         <valueNumeric class="int">71</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2487,17 +2584,18 @@
       </value>
       <value>
         <valueNumeric class="int">37</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003557</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003557</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007595"</valueString>
+        <valueString>&quot;1235007595&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2505,7 +2603,7 @@
     <list>
       <value>
         <valueNumeric class="int">72</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2521,17 +2619,18 @@
       </value>
       <value>
         <valueNumeric class="int">36</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006934</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006934</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007596"</valueString>
+        <valueString>&quot;1235007596&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2539,12 +2638,12 @@
     <list>
       <value>
         <valueNumeric class="int">73</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>rule_31_Top Brands_case 73_Private label ("marca propria")</valueString>
+        <valueString>rule_31_Top Brands_case 73_Private label (&quot;marca propria&quot;)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2555,17 +2654,18 @@
       </value>
       <value>
         <valueNumeric class="int">35</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006943</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006943</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007597"</valueString>
+        <valueString>&quot;1235007597&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2573,7 +2673,7 @@
     <list>
       <value>
         <valueNumeric class="int">74</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2589,17 +2689,18 @@
       </value>
       <value>
         <valueNumeric class="int">34</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000073</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000073</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007598"</valueString>
+        <valueString>&quot;1235007598&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2607,7 +2708,7 @@
     <list>
       <value>
         <valueNumeric class="int">75</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2623,17 +2724,18 @@
       </value>
       <value>
         <valueNumeric class="int">33</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000074</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000074</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007599"</valueString>
+        <valueString>&quot;1235007599&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2641,7 +2743,7 @@
     <list>
       <value>
         <valueNumeric class="int">76</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2657,17 +2759,18 @@
       </value>
       <value>
         <valueNumeric class="int">32</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000075</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000075</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007600"</valueString>
+        <valueString>&quot;1235007600&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2675,7 +2778,7 @@
     <list>
       <value>
         <valueNumeric class="int">77</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2691,17 +2794,18 @@
       </value>
       <value>
         <valueNumeric class="int">31</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235004035</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235004035</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007601"</valueString>
+        <valueString>&quot;1235007601&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2709,7 +2813,7 @@
     <list>
       <value>
         <valueNumeric class="int">78</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2725,17 +2829,18 @@
       </value>
       <value>
         <valueNumeric class="int">30</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003559</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003559</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007602"</valueString>
+        <valueString>&quot;1235007602&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2743,7 +2848,7 @@
     <list>
       <value>
         <valueNumeric class="int">79</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2759,17 +2864,18 @@
       </value>
       <value>
         <valueNumeric class="int">29</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000077</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000077</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007603"</valueString>
+        <valueString>&quot;1235007603&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2777,7 +2883,7 @@
     <list>
       <value>
         <valueNumeric class="int">80</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2793,17 +2899,18 @@
       </value>
       <value>
         <valueNumeric class="int">28</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000078</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000078</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007604"</valueString>
+        <valueString>&quot;1235007604&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2811,7 +2918,7 @@
     <list>
       <value>
         <valueNumeric class="int">81</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2827,17 +2934,18 @@
       </value>
       <value>
         <valueNumeric class="int">27</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006935</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006935</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007605"</valueString>
+        <valueString>&quot;1235007605&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2845,7 +2953,7 @@
     <list>
       <value>
         <valueNumeric class="int">82</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2861,17 +2969,18 @@
       </value>
       <value>
         <valueNumeric class="int">26</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003872</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003872</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007606"</valueString>
+        <valueString>&quot;1235007606&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2879,7 +2988,7 @@
     <list>
       <value>
         <valueNumeric class="int">83</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2895,17 +3004,18 @@
       </value>
       <value>
         <valueNumeric class="int">25</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000079</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000079</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007607"</valueString>
+        <valueString>&quot;1235007607&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2913,7 +3023,7 @@
     <list>
       <value>
         <valueNumeric class="int">84</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2929,17 +3039,18 @@
       </value>
       <value>
         <valueNumeric class="int">24</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003873</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003873</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007608"</valueString>
+        <valueString>&quot;1235007608&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2947,7 +3058,7 @@
     <list>
       <value>
         <valueNumeric class="int">85</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2963,17 +3074,18 @@
       </value>
       <value>
         <valueNumeric class="int">23</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000086</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000086</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007609"</valueString>
+        <valueString>&quot;1235007609&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2981,7 +3093,7 @@
     <list>
       <value>
         <valueNumeric class="int">86</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2997,17 +3109,18 @@
       </value>
       <value>
         <valueNumeric class="int">22</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000088</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000088</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007610"</valueString>
+        <valueString>&quot;1235007610&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3015,7 +3128,7 @@
     <list>
       <value>
         <valueNumeric class="int">87</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3031,17 +3144,18 @@
       </value>
       <value>
         <valueNumeric class="int">21</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000091</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000091</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007611"</valueString>
+        <valueString>&quot;1235007611&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3049,7 +3163,7 @@
     <list>
       <value>
         <valueNumeric class="int">88</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3065,17 +3179,18 @@
       </value>
       <value>
         <valueNumeric class="int">20</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006937</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006937</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007612"</valueString>
+        <valueString>&quot;1235007612&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3083,7 +3198,7 @@
     <list>
       <value>
         <valueNumeric class="int">89</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3099,17 +3214,18 @@
       </value>
       <value>
         <valueNumeric class="int">19</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000095</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000095</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007613"</valueString>
+        <valueString>&quot;1235007613&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3117,7 +3233,7 @@
     <list>
       <value>
         <valueNumeric class="int">90</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3133,17 +3249,18 @@
       </value>
       <value>
         <valueNumeric class="int">18</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000096</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000096</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007614"</valueString>
+        <valueString>&quot;1235007614&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3151,7 +3268,7 @@
     <list>
       <value>
         <valueNumeric class="int">91</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3167,17 +3284,18 @@
       </value>
       <value>
         <valueNumeric class="int">17</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000097</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000097</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007615"</valueString>
+        <valueString>&quot;1235007615&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3185,7 +3303,7 @@
     <list>
       <value>
         <valueNumeric class="int">92</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3201,17 +3319,18 @@
       </value>
       <value>
         <valueNumeric class="int">16</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003565</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003565</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007616"</valueString>
+        <valueString>&quot;1235007616&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3219,7 +3338,7 @@
     <list>
       <value>
         <valueNumeric class="int">93</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3235,17 +3354,18 @@
       </value>
       <value>
         <valueNumeric class="int">15</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000098</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000098</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007617"</valueString>
+        <valueString>&quot;1235007617&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3253,7 +3373,7 @@
     <list>
       <value>
         <valueNumeric class="int">94</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3269,17 +3389,18 @@
       </value>
       <value>
         <valueNumeric class="int">14</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003663</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003663</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007618"</valueString>
+        <valueString>&quot;1235007618&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3287,7 +3408,7 @@
     <list>
       <value>
         <valueNumeric class="int">95</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3303,17 +3424,18 @@
       </value>
       <value>
         <valueNumeric class="int">13</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000101</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000101</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007619"</valueString>
+        <valueString>&quot;1235007619&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3321,7 +3443,7 @@
     <list>
       <value>
         <valueNumeric class="int">96</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3337,17 +3459,18 @@
       </value>
       <value>
         <valueNumeric class="int">12</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003876</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003876</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007620"</valueString>
+        <valueString>&quot;1235007620&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3355,7 +3478,7 @@
     <list>
       <value>
         <valueNumeric class="int">97</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3371,17 +3494,18 @@
       </value>
       <value>
         <valueNumeric class="int">11</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006938</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006938</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007621"</valueString>
+        <valueString>&quot;1235007621&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3389,7 +3513,7 @@
     <list>
       <value>
         <valueNumeric class="int">98</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3405,17 +3529,18 @@
       </value>
       <value>
         <valueNumeric class="int">10</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000102</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000102</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007622"</valueString>
+        <valueString>&quot;1235007622&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3423,7 +3548,7 @@
     <list>
       <value>
         <valueNumeric class="int">99</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3439,17 +3564,18 @@
       </value>
       <value>
         <valueNumeric class="int">9</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000103</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000103</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007623"</valueString>
+        <valueString>&quot;1235007623&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3457,7 +3583,7 @@
     <list>
       <value>
         <valueNumeric class="int">100</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3473,17 +3599,18 @@
       </value>
       <value>
         <valueNumeric class="int">8</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000105</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000105</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007624"</valueString>
+        <valueString>&quot;1235007624&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3491,7 +3618,7 @@
     <list>
       <value>
         <valueNumeric class="int">101</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3507,17 +3634,18 @@
       </value>
       <value>
         <valueNumeric class="int">7</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006939</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006939</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007625"</valueString>
+        <valueString>&quot;1235007625&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3525,7 +3653,7 @@
     <list>
       <value>
         <valueNumeric class="int">102</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3541,17 +3669,18 @@
       </value>
       <value>
         <valueNumeric class="int">6</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003879</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003879</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007626"</valueString>
+        <valueString>&quot;1235007626&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3559,7 +3688,7 @@
     <list>
       <value>
         <valueNumeric class="int">103</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3575,17 +3704,18 @@
       </value>
       <value>
         <valueNumeric class="int">5</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235006940</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235006940</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007627"</valueString>
+        <valueString>&quot;1235007627&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3593,7 +3723,7 @@
     <list>
       <value>
         <valueNumeric class="int">104</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3609,17 +3739,18 @@
       </value>
       <value>
         <valueNumeric class="int">4</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000107</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000107</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007628"</valueString>
+        <valueString>&quot;1235007628&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3627,7 +3758,7 @@
     <list>
       <value>
         <valueNumeric class="int">105</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3643,17 +3774,18 @@
       </value>
       <value>
         <valueNumeric class="int">3</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235000003</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235000003</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007528"</valueString>
+        <valueString>&quot;1235007528&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3661,7 +3793,7 @@
     <list>
       <value>
         <valueNumeric class="int">106</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3677,17 +3809,18 @@
       </value>
       <value>
         <valueNumeric class="int">2</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1235003859</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="long">1235003859</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007571"</valueString>
+        <valueString>&quot;1235007571&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3695,7 +3828,7 @@
     <list>
       <value>
         <valueNumeric class="int">107</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3711,17 +3844,17 @@
       </value>
       <value>
         <valueNumeric class="int">1</valueNumeric>
-        <valueString/>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString/>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>"1235007629"</valueString>
+        <valueString>&quot;1235007629&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
