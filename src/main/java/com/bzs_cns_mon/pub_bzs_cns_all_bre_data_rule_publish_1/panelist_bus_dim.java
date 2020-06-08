@@ -7,6 +7,18 @@ package com.bzs_cns_mon.pub_bzs_cns_all_bre_data_rule_publish_1;
 public class panelist_bus_dim implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
+    
+    private java.lang.String dim_name;
+	private java.lang.Long dim_levels__level_0;
+	private java.lang.Long dim_levels__level_1;
+	private java.lang.Long dim_levels__level_2;
+	private java.lang.Long dim_levels__level_3;
+	private java.lang.Long dim_levels__level_4;
+	private java.lang.Long dim_levels__level_5;
+	private java.lang.Long dim_levels__level_6;
+	private java.lang.Long dim_levels__level_7;
+	private java.lang.Long dim_levels__level_8;
+	private java.lang.Long dim_levels__level_9;
 
     public panelist_bus_dim() {
     }
