@@ -1,0 +1,13 @@
+<scenario>
+  <name>primary_data_to_populate_test</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures/>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>com.bzs_cns_mon.pub_bzs_cns_all_bre_data_rule_publish_1</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions/>
+</scenario>
