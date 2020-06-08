@@ -6,10 +6,10 @@ package com.bzs_cns_mon.pub_bzs_cns_all_bre_data_rule_publish_1;
 
 public class panelist_bus_dim implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
-    
-    private java.lang.String dim_name;
-	private java.lang.Long dim_levels__level_0;
+	static final long serialVersionUID = 1L;
+
+	private java.lang.String dim_name;
+	private Integer dim_levels__level_0;
 	private java.lang.Long dim_levels__level_1;
 	private java.lang.Long dim_levels__level_2;
 	private java.lang.Long dim_levels__level_3;
@@ -20,10 +20,39 @@ public class panelist_bus_dim implements java.io.Serializable {
 	private java.lang.Long dim_levels__level_8;
 	private java.lang.Long dim_levels__level_9;
 
-    public panelist_bus_dim() {
-    }
+	public panelist_bus_dim() {
+	}
 
+	public java.lang.Integer getDim_levels__level_0() {
+		return this.dim_levels__level_0;
+	}
 
+	public void setDim_levels__level_0(java.lang.Integer dim_levels__level_0) {
+		this.dim_levels__level_0 = dim_levels__level_0;
+	}
 
+	public panelist_bus_dim(java.lang.String dim_name,
+			java.lang.Integer dim_levels__level_0,
+			java.lang.Long dim_levels__level_1,
+			java.lang.Long dim_levels__level_2,
+			java.lang.Long dim_levels__level_3,
+			java.lang.Long dim_levels__level_4,
+			java.lang.Long dim_levels__level_5,
+			java.lang.Long dim_levels__level_6,
+			java.lang.Long dim_levels__level_7,
+			java.lang.Long dim_levels__level_8,
+			java.lang.Long dim_levels__level_9) {
+		this.dim_name = dim_name;
+		this.dim_levels__level_0 = dim_levels__level_0;
+		this.dim_levels__level_1 = dim_levels__level_1;
+		this.dim_levels__level_2 = dim_levels__level_2;
+		this.dim_levels__level_3 = dim_levels__level_3;
+		this.dim_levels__level_4 = dim_levels__level_4;
+		this.dim_levels__level_5 = dim_levels__level_5;
+		this.dim_levels__level_6 = dim_levels__level_6;
+		this.dim_levels__level_7 = dim_levels__level_7;
+		this.dim_levels__level_8 = dim_levels__level_8;
+		this.dim_levels__level_9 = dim_levels__level_9;
+	}
 
 }
