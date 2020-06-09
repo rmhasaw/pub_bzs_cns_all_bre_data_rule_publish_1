@@ -123,7 +123,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>rule_22_Move measure sales into price for sybase_case 1_Move measure sales into pricefor Sybase</valueString>
+        <valueString>Rule_22_Move measure sales into price for sybase_case 1_Move measure sales into pricefor Sybase</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
