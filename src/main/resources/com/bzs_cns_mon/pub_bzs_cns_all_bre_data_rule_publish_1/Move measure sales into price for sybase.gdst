@@ -69,7 +69,7 @@
     <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
