@@ -6,7 +6,7 @@
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>150</width>
+    <width>694</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols>
@@ -44,8 +44,8 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>data_ppweek &gt; : 489</header>
+          <width>382</width>
+          <header>data_ppweek &gt; </header>
           <constraintValueType>3</constraintValueType>
           <factField>data_ppweek</factField>
           <fieldType>String</fieldType>
@@ -79,7 +79,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>418</width>
           <header>Assign data.data_measures__sales to data_npd_attr_50</header>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
