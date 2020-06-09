@@ -74,7 +74,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>200</width>
-      <header>data_price</header>
+      <header>Assign data.data_measures__sales to data_price</header>
       <boundName>data</boundName>
       <factField>data_price</factField>
       <type>java.lang.Integer</type>
@@ -145,7 +145,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;data_measures.sales&quot;</valueString>
+        <valueString>data.data_measures__sales</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
