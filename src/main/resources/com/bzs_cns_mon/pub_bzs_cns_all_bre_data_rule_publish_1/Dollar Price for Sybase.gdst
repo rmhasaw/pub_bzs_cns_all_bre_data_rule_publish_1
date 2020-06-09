@@ -50,7 +50,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>200</width>
-          <header>data_ppmonth &gt;</header>
+          <header>data_ppmonth &gt; : 489</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
           <fieldType>Integer</fieldType>
