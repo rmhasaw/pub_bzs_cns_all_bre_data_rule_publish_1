@@ -123,7 +123,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Rule_24_Dollar Price for Sybase_case 1_Dollar price for Sybase</valueString>
+        <valueString>Rule_24_Dollar Price for Sybase_case_1_Dollar price for Sybase</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
