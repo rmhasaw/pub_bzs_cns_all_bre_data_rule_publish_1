@@ -145,7 +145,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;decimal_round(((data_measures.sales)*(data_factor_values_7)/(data_measures.units)),2)&quot;</valueString>
+        <valueString>decimal_round(((data.data_measures__sales)*(data_factor_values_7)/(data.data_measures__units)),2)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
